@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links, Audio e Videos</title>
+    <link rel="shortcut icon" href="../imagens/logositesmidialink_Ld4_icon.ico">
+    <style>
+        body{
+            background-color: rgb(248, 243, 217);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: black;
+            line-height: 1.5;
+            font-size: 15px;
+        }
+
+        ul,a{
+            color:blue ;
+        }
+    </style>
+</head>
+<body>
+    <header id="inicio">
+        <figure>
+            <img src="../imagens/logoSitesMidiaLink.png" alt="Figura com logo do site">
+            <figcaption>Logo do site</figcaption>
+        </figure>
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <a href="../paginas/index.html"><li>Página Inicial</li></a>
+            <li>Linguagens Web
+                <ul>
+                    <a href="https://www.w3.org/TR/2011/WD-html5-20110405/index.html" target="_blank"><li>HTML5</li></a>
+                    <a href="../paginas/css.html"><li>CSS3</li></a>
+                    <li>JavaScript</li>
+                </ul>
+            </li>
+            <li>Contato</li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        Seção Principal
+    </main>
+    <aside>
+        <audio src="../audio/Taylor Swift - Anti-Hero (Official Music Video).mp3" controls>
+             <track kind="captions" src="foo.en.vtt" srclang="en" label="English">
+             O seu navegador não suporta produzir este áudio!
+             <code>audio</code>
+        </audio>
+        <br>
+        <video src="../video/Taylor Swift - Anti-Hero (Official Music Video).mp4" controls poster="../imagens/imageVideoAntiHero.jpg" height="50%" width="50%">
+            <track kind="captions" src="foo.en.vtt" srclang="en" label="English">
+        
+        </video>
+        <br>
+        <p>Baixar arquivo</p>
+        <a href="../documentos/DWEB_07.1(Lista 02).pdf" download="Lista 02.pdf" target="_blank">Baixar Arquivo</a>
+        <br>
+        <a href="#inicio">Inicio da Página</a>
+    </aside>
+    <hr>
+    <footer>
+        Desenvolvido por Bruna Serra, 14 de março de 2024
+    </footer>
+    
+</body>
+</html>
